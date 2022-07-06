@@ -1,0 +1,44 @@
+.top-corner {
+    text-align: center;
+    color: white;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.top-corner h1 {
+    font-size: 80px;
+}
+
+.top-corner h3 {
+    font-size: 22px;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+}
+
+.link-button {
+    display: inline-block;
+    background-color: rgb(8, 176, 176);
+    padding: 5px 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 6%;
+}
+
+#top {
+    padding-top: 10%;
+    padding-left: 19%;
+    padding-right: 19%;
+    padding-bottom: 3%;
+}
