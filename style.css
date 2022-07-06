@@ -1,6 +1,5 @@
 .top-corner {
     text-align: center;
-    color: white;
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -10,17 +9,19 @@
 
 .top-corner h1 {
     font-size: 80px;
+    color: white;
 }
 
 .top-corner h3 {
     font-size: 22px;
+    color: white;
 }
 
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    background-color: black;
+    background-color: white;
 }
 
 .link-button {
@@ -36,9 +37,221 @@ body {
     margin-bottom: 6%;
 }
 
-#top {
+.align-headers {
     padding-top: 10%;
     padding-left: 19%;
     padding-right: 19%;
     padding-bottom: 3%;
+}
+
+.middle-corner {
+    text-align: center;
+}
+
+.middle-corner h1 {
+    font-size: 50px;
+}
+
+.middle-corner h3 {
+    font-size: 15px;
+}
+
+.donation-area {
+    display: flex;
+    font-size: xx-large;
+}
+
+.donation-area button {
+    margin-inline: 20px;
+    border: 40px solid white;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#first-donation {
+    padding-left: 15%;
+}
+
+#third-donation {
+    border: 40px solid rgb(147, 251, 251);
+    border-style: solid;
+    background-color: rgb(147, 251, 251);
+
+}
+
+.input {
+    width: 500px;
+    background: white;
+    padding: 30px;
+}
+
+.input .input-data {
+    height: 50%;
+    width: 100%;
+}
+
+.input .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 4px solid aqua;
+    margin-left: 90%;
+    margin-bottom: 12%;
+}
+
+#link-button-bottom {
+    margin-left: 43%;
+}
+
+.align-headers h1 {
+    text-align: center;
+}
+
+.align-headers h3 {
+    text-align: center;
+}
+
+.donate-plan {
+    display: flex;
+}
+
+.donate-plan div {
+    border: 2px solid black;
+    margin: 5px;
+    height: 250px;
+    padding: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#food {
+    background-color: rgb(207, 219, 239);
+}
+
+#shelter {
+    background-color: rgb(228, 205, 210);
+}
+
+#education {
+    background-color: rgb(218, 189, 151);
+}
+
+.bottom-area {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+}
+
+.bottom-area h1 {
+    font-size: 50px;
+}
+
+.bottom-area h2 {
+    font-weight: lighter;
+}
+
+.bottom-area div {
+    border: 2px solid white;
+}
+
+.bottom-area .help {
+    padding-left: 2%;
+}
+
+.bottom-area img {
+    width: 100%;
+}
+
+.very-bottom {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.very-bottom h1 {
+    font-size: 50px;
+}
+
+.very-bottom h2 {
+    font-size: 20px;
+}
+
+.link-button-bottom-again {
+    display: inline-block;
+    background-color: rgb(8, 176, 176);
+    padding: 20px 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 6%;
+    margin-top: 3%;
+}
+
+.e-mail {
+    text-align: center;
+    padding: 5% 10%;
+    background-color: rgb(190, 222, 212);
+    margin: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.e-mail input {
+    font-size: larger;
+    background-color: rgb(212, 206, 206);
+}
+
+.e-mail label {
+    color: white;
+    background-color: red;
+    font-weight: 700;
+    padding: 7px 20px;
+}
+
+.login {
+    width: 590px;
+    margin: 0px 375px;
+    padding: 80px;
+    background: rgb(190, 222, 212);
+
+}
+
+.Uname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+.Pass {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+.log {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 20px;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 700;
 }
